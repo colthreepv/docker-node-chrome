@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for i in {8..9}; do
+  docker push colthreepv/node-chrome:$i
+done

@@ -1,5 +1,5 @@
 #!/bin/bash
 
 for i in {8..9}; do
-  docker build --build-arg NODE_TAG=$i -f Dockerfile -t colthreepv/node-chrome:$i
+  docker build --build-arg NODE_TAG=$i -t colthreepv/node-chrome:$i .
 done
