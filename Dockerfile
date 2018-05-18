@@ -1,4 +1,5 @@
-FROM node:latest
+ARG NODE_TAG
+FROM node:${NODE_TAG}
 
 RUN apt-get update \
   && apt-get install -y apt-transport-https \
