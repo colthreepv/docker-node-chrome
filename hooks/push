@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for i in {8..9}; do
+for i in 6 8 9 10 latest; do
   docker push colthreepv/node-chrome:$i
 done
