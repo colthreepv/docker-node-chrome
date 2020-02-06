@@ -10,6 +10,8 @@ Tags available are based on [docker node tags][docker-node]:
 - 8
 - 9
 - 10
+- 12
+- 13
 - latest (just for backward compatibility, I do **not** suggest this tag)
 
 This is the perfect base image to run your frontend tests with [karma][2] or [protractor][3] inside [Gitlab][4] or other CI environments

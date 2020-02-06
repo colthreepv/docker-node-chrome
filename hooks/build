@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for i in 6 8 9 10 latest; do
+for i in 6 8 9 10 12 13 latest; do
   docker build --build-arg NODE_TAG=$i -t colthreepv/node-chrome:$i .
 done
